@@ -1,0 +1,1080 @@
+
+Testing C:\Users\bilal.khan\GitHub\Juice-Shop ...
+
+ ✗ [Low] Hardcoded Secret 
+   Path: test/api/2faSpec.ts, line 149 
+   Info: Hardcoded value is used as a cipher key (in jsonwebtoken.sign). Generate the value with a cryptographically strong random number generator and do not hardcode it in source code.
+
+ ✗ [Low] Improper Type Validation 
+   Path: routes/vulnCodeSnippet.ts, line 172 
+   Info: The type of this object, coming from body and the value of its length property can be controlled by the user. An attacker may craft the properties of the object to crash the application or bypass its logic. Consider checking the type of the object.
+
+ ✗ [Low] Improper Type Validation 
+   Path: routes/vulnCodeSnippet.ts, line 173 
+   Info: The type of this object, coming from body and the value of its includes property can be controlled by the user. An attacker may craft the properties of the object to crash the application or bypass its logic. Consider checking the type of the object.
+
+ ✗ [Low] Improper Type Validation 
+   Path: routes/vulnCodeSnippet.ts, line 175 
+   Info: The type of this object, coming from body and the value of its filter property can be controlled by the user. An attacker may craft the properties of the object to crash the application or bypass its logic. Consider checking the type of the object.
+
+ ✗ [Low] Improper Type Validation 
+   Path: routes/profileImageUrlUpload.ts, line 19 
+   Info: The type of this object, coming from body and the value of its match property can be controlled by the user. An attacker may craft the properties of the object to crash the application or bypass its logic. Consider checking the type of the object.
+
+ ✗ [Low] Improper Type Validation 
+   Path: routes/profileImageUrlUpload.ts, line 30 
+   Info: The type of this object, coming from body and the value of its split property can be controlled by the user. An attacker may craft the properties of the object to crash the application or bypass its logic. Consider checking the type of the object.
+
+ ✗ [Low] Hardcoded Secret 
+   Path: test/api/2faSpec.ts, line 73 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [Low] Hardcoded Secret 
+   Path: test/api/2faSpec.ts, line 233 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [Low] Hardcoded Secret 
+   Path: test/api/2faSpec.ts, line 249 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [Low] Hardcoded Secret 
+   Path: test/api/2faSpec.ts, line 279 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [Low] Hardcoded Secret 
+   Path: test/api/2faSpec.ts, line 295 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [Low] Hardcoded Secret 
+   Path: test/api/2faSpec.ts, line 308 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [Low] Hardcoded Secret 
+   Path: test/api/2faSpec.ts, line 324 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [Low] Hardcoded Secret 
+   Path: test/api/2faSpec.ts, line 337 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [Low] Hardcoded Secret 
+   Path: test/api/2faSpec.ts, line 353 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [Low] Hardcoded Secret 
+   Path: test/api/2faSpec.ts, line 380 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 19 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 231 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 277 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 306 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 335 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 364 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 393 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 430 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/quantityApiSpec.ts, line 20 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/quantityApiSpec.ts, line 37 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/quantityApiSpec.ts, line 71 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/quantityApiSpec.ts, line 92 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/quantityApiSpec.ts, line 136 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/quantityApiSpec.ts, line 154 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/quantityApiSpec.ts, line 206 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/quantityApiSpec.ts, line 227 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/quantityApiSpec.ts, line 308 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/quantityApiSpec.ts, line 325 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/addressApiSpec.ts, line 20 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deluxeApiSpec.ts, line 13 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deluxeApiSpec.ts, line 35 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deluxeApiSpec.ts, line 53 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deluxeApiSpec.ts, line 71 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deluxeApiSpec.ts, line 147 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deluxeApiSpec.ts, line 168 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 16 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/basketItemApiSpec.ts, line 20 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/basketApiSpec.ts, line 24 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/basketApiSpec.ts, line 100 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/walletApiSpec.ts, line 18 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/userProfileSpec.ts, line 19 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deliveryApiSpec.ts, line 22 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deliveryApiSpec.ts, line 51 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deliveryApiSpec.ts, line 82 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deliveryApiSpec.ts, line 110 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/memoryApiSpec.ts, line 25 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/memoryApiSpec.ts, line 63 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/memoryApiSpec.ts, line 90 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/passwordApiSpec.ts, line 20 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/passwordApiSpec.ts, line 29 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/passwordApiSpec.ts, line 93 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/erasureRequestApiSpec.ts, line 37 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/erasureRequestApiSpec.ts, line 64 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/erasureRequestApiSpec.ts, line 80 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/loginApiSpec.ts, line 21 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/loginApiSpec.ts, line 30 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/loginApiSpec.ts, line 64 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/loginApiSpec.ts, line 79 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/loginApiSpec.ts, line 109 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/loginApiSpec.ts, line 124 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/loginApiSpec.ts, line 142 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/loginApiSpec.ts, line 245 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/loginApiSpec.ts, line 266 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/orderHistoryApiSpec.ts, line 18 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/orderHistoryApiSpec.ts, line 55 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/orderHistoryApiSpec.ts, line 72 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/orderHistoryApiSpec.ts, line 108 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/orderHistoryApiSpec.ts, line 128 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/userApiSpec.ts, line 41 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/userApiSpec.ts, line 59 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/userApiSpec.ts, line 81 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/userApiSpec.ts, line 103 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/userApiSpec.ts, line 125 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/userApiSpec.ts, line 144 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/userApiSpec.ts, line 205 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/userApiSpec.ts, line 216 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/feedbackApiSpec.ts, line 118 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/feedbackApiSpec.ts, line 151 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/profileImageUploadSpec.ts, line 25 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/profileImageUploadSpec.ts, line 52 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/profileImageUploadSpec.ts, line 97 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/profileImageUploadSpec.ts, line 123 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/productReviewApiSpec.ts, line 106 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/productReviewApiSpec.ts, line 126 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/paymentApiSpec.ts, line 20 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/dataExportApiSpec.ts, line 20 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/dataExportApiSpec.ts, line 47 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/dataExportApiSpec.ts, line 76 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/dataExportApiSpec.ts, line 111 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/dataExportApiSpec.ts, line 151 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/dataExportApiSpec.ts, line 193 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/dataExportApiSpec.ts, line 233 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/dataExportApiSpec.ts, line 281 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/dataExportApiSpec.ts, line 331 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 24 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in post.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 51 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in post.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 52 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in post.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deluxeApiSpec.ts, line 18 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in post.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 21 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in post.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/securityAnswerApiSpec.ts, line 44 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in post.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/loginApiSpec.ts, line 46 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in post.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 60 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 169 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 195 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 236 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 282 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 311 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 340 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 367 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 397 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 434 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deluxeApiSpec.ts, line 105 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/deluxeApiSpec.ts, line 128 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 54 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 74 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 101 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 129 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 163 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 237 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 235 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in register.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 281 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in register.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 310 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in register.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 339 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in register.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 396 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in register.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 433 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in register.
+
+ ✗ [Low] Path Traversal 
+   Path: test/server/codingChallengeFixesSpec.ts, line 22 
+   Info: Unsanitized input from an HTTP parameter flows into fs.readFileSync, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to read arbitrary files.
+
+ ✗ [Low] Path Traversal 
+   Path: test/server/codingChallengeFixesSpec.ts, line 29 
+   Info: Unsanitized input from an HTTP parameter flows into fs.readFileSync, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to read arbitrary files.
+
+ ✗ [Low] Cleartext Transmission of Sensitive Information 
+   Path: test/api/productReviewApiSpec.ts, line 63 
+   Info: http.get uses HTTP which is an insecure protocol and should not be used in code due to cleartext transmission of information. Data in cleartext in a communication channel can be sniffed by unauthorized actors. Consider using the https module instead.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 23 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in post.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 50 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in post.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 20 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in post.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/securityAnswerApiSpec.ts, line 43 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in post.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/loginApiSpec.ts, line 45 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in post.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 60 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 236 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 282 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 311 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 340 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 397 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 434 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 100 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 128 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 162 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/chatBotSpec.ts, line 236 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 235 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in register.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 281 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in register.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 310 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in register.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 339 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in register.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 396 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in register.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: test/api/2faSpec.ts, line 433 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in register.
+
+ ✗ [Low] Deserialization of Untrusted Data 
+   Path: test/server/codingChallengeFixesSpec.ts, line 22 
+   Info: Unsanitized input from an HTTP parameter flows into js-yaml.load, where it is used to deserialize an object. This may result in an Unsafe Deserialization vulnerability.
+
+ ✗ [Low] Deserialization of Untrusted Data 
+   Path: test/server/codingChallengeFixesSpec.ts, line 29 
+   Info: Unsanitized input from an HTTP parameter flows into js-yaml.load, where it is used to deserialize an object. This may result in an Unsafe Deserialization vulnerability.
+
+ ✗ [Medium] Allocation of Resources Without Limits or Throttling 
+   Path: routes/dataErasure.ts, line 18 
+   Info: This endpoint handler performs a file system operation and does not use a rate-limiting mechanism. It may enable the attackers to perform Denial-of-service attacks. Consider using a rate-limiting middleware such as express-limit.
+
+ ✗ [Medium] Allocation of Resources Without Limits or Throttling 
+   Path: routes/dataErasure.ts, line 54 
+   Info: This endpoint handler performs a file system operation and does not use a rate-limiting mechanism. It may enable the attackers to perform Denial-of-service attacks. Consider using a rate-limiting middleware such as express-limit.
+
+ ✗ [Medium] Allocation of Resources Without Limits or Throttling 
+   Path: routes/videoHandler.ts, line 19 
+   Info: This endpoint handler performs a file system operation and does not use a rate-limiting mechanism. It may enable the attackers to perform Denial-of-service attacks. Consider using a rate-limiting middleware such as express-limit.
+
+ ✗ [Medium] Allocation of Resources Without Limits or Throttling 
+   Path: routes/videoHandler.ts, line 51 
+   Info: This endpoint handler performs a file system operation and does not use a rate-limiting mechanism. It may enable the attackers to perform Denial-of-service attacks. Consider using a rate-limiting middleware such as express-limit.
+
+ ✗ [Medium] Allocation of Resources Without Limits or Throttling 
+   Path: routes/languages.ts, line 11 
+   Info: This endpoint handler performs a file system operation and does not use a rate-limiting mechanism. It may enable the attackers to perform Denial-of-service attacks. Consider using a rate-limiting middleware such as express-limit.
+
+ ✗ [Medium] Allocation of Resources Without Limits or Throttling 
+   Path: routes/premiumReward.ts, line 13 
+   Info: This endpoint handler performs a file system operation and does not use a rate-limiting mechanism. It may enable the attackers to perform Denial-of-service attacks. Consider using a rate-limiting middleware such as express-limit.
+
+ ✗ [Medium] Allocation of Resources Without Limits or Throttling 
+   Path: routes/privacyPolicyProof.ts, line 13 
+   Info: This endpoint handler performs a file system operation and does not use a rate-limiting mechanism. It may enable the attackers to perform Denial-of-service attacks. Consider using a rate-limiting middleware such as express-limit.
+
+ ✗ [Medium] Allocation of Resources Without Limits or Throttling 
+   Path: routes/vulnCodeFixes.ts, line 71 
+   Info: This endpoint handler performs a file system operation and does not use a rate-limiting mechanism. It may enable the attackers to perform Denial-of-service attacks. Consider using a rate-limiting middleware such as express-limit.
+
+ ✗ [Medium] Allocation of Resources Without Limits or Throttling 
+   Path: routes/userProfile.ts, line 21 
+   Info: This endpoint handler performs a file system operation and does not use a rate-limiting mechanism. It may enable the attackers to perform Denial-of-service attacks. Consider using a rate-limiting middleware such as express-limit.
+
+ ✗ [Medium] Allocation of Resources Without Limits or Throttling 
+   Path: routes/easterEgg.ts, line 13 
+   Info: This endpoint handler performs a file system operation and does not use a rate-limiting mechanism. It may enable the attackers to perform Denial-of-service attacks. Consider using a rate-limiting middleware such as express-limit.
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: frontend/src/app/data-export/data-export.component.ts, line 58 
+   Info: Unsanitized input from data from a remote resource flows into write, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: routes/recycles.ts, line 17 
+   Info: Unsanitized input from an HTTP parameter flows into send, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: frontend/src/app/data-export/data-export.component.ts, line 45 
+   Info: Unsanitized input from data from a remote resource flows into bypassSecurityTrustHtml, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: frontend/src/app/score-board/score-board.component.ts, line 182 
+   Info: Unsanitized input from data from a remote resource flows into bypassSecurityTrustHtml, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: frontend/src/app/about/about.component.ts, line 81 
+   Info: Unsanitized input from data from a remote resource flows into bypassSecurityTrustHtml, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: frontend/src/app/administration/administration.component.ts, line 51 
+   Info: Unsanitized input from data from a remote resource flows into bypassSecurityTrustHtml, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: frontend/src/app/administration/administration.component.ts, line 66 
+   Info: Unsanitized input from data from a remote resource flows into bypassSecurityTrustHtml, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: frontend/src/app/track-result/track-result.component.ts, line 42 
+   Info: Unsanitized input from data from a remote resource flows into bypassSecurityTrustHtml, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: frontend/src/app/search-result/search-result.component.ts, line 152 
+   Info: Unsanitized input from an HTTP parameter flows into bypassSecurityTrustHtml, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: frontend/src/app/last-login-ip/last-login-ip.component.ts, line 36 
+   Info: Unsanitized input from browser storage flows into bypassSecurityTrustHtml, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+ ✗ [Medium] Cross-Site Request Forgery (CSRF) 
+   Path: server.ts, line 91 
+   Info: CSRF protection is disabled for your Express app. This allows the attackers to execute requests on a user's behalf.
+
+ ✗ [Medium] Use of Password Hash With Insufficient Computational Effort 
+   Path: Gruntfile.js, line 73 
+   Info: md5 hash (used in crypto.createHash) is insecure. Consider changing it to a secure hashing algorithm (e.g. SHA256).
+
+ ✗ [Medium] Use of Password Hash With Insufficient Computational Effort 
+   Path: lib/insecurity.ts, line 42 
+   Info: md5 hash (used in crypto.createHash) is insecure. Consider changing it to a secure hashing algorithm (e.g. SHA256).
+
+ ✗ [Medium] Use of Password Hash With Insufficient Computational Effort 
+   Path: lib/utils.ts, line 97 
+   Info: SHA-1 hash (used in jssha) is insecure. Consider changing it to a secure hashing algorithm (e.g. SHA256).
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/totpSetup.spec.ts, line 5 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/contact.spec.ts, line 11 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/contact.spec.ts, line 47 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/complain.spec.ts, line 4 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/search.spec.ts, line 55 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/search.spec.ts, line 82 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/basket.spec.ts, line 4 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/profile.spec.ts, line 3 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/changePassword.spec.ts, line 5 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/changePassword.spec.ts, line 24 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/changePassword.spec.ts, line 31 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/restApi.spec.ts, line 4 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/restApi.spec.ts, line 81 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/register.spec.ts, line 9 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/chatbot.spec.ts, line 3 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/dataErasure.spec.ts, line 3 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/administration.spec.ts, line 4 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/noSql.spec.ts, line 8 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/noSql.spec.ts, line 55 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/noSql.spec.ts, line 78 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/noSql.spec.ts, line 122 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/b2bOrder.spec.ts, line 6 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/b2bOrder.spec.ts, line 37 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/dataExport.spec.ts, line 24 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/totpSetup.spec.ts, line 6 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/totpSetup.spec.ts, line 20 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/contact.spec.ts, line 11 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/contact.spec.ts, line 47 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/complain.spec.ts, line 5 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/search.spec.ts, line 56 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/search.spec.ts, line 83 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/basket.spec.ts, line 4 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/basket.spec.ts, line 77 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/profile.spec.ts, line 3 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/changePassword.spec.ts, line 6 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/changePassword.spec.ts, line 25 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/changePassword.spec.ts, line 31 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/restApi.spec.ts, line 4 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/restApi.spec.ts, line 82 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/register.spec.ts, line 10 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/chatbot.spec.ts, line 3 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/dataErasure.spec.ts, line 3 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/administration.spec.ts, line 5 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/noSql.spec.ts, line 8 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/noSql.spec.ts, line 55 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/b2bOrder.spec.ts, line 6 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/b2bOrder.spec.ts, line 37 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/dataExport.spec.ts, line 24 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/deluxe.spec.ts, line 4 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/deluxe.spec.ts, line 21 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in login.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: frontend/src/app/oauth/oauth.component.spec.ts, line 85 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in passwordRepeat.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: cypress/integration/e2e/register.spec.ts, line 84 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: frontend/src/app/oauth/oauth.component.spec.ts, line 92 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: frontend/src/app/Services/two-factor-auth-service.spec.ts, line 64 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: frontend/src/app/Services/two-factor-auth-service.spec.ts, line 80 
+   Info: Do not hardcode passwords in code. Found hardcoded password used in password.
+
+ ✗ [Medium] Prototype Pollution 
+   Path: routes/vulnCodeFixes.ts, line 93 
+   Info: Unsanitized input from the HTTP request body flows into a member access and is used to access a property of this object by name. This may allow a malicious user to pollute the Object.prototype and cause a crash, remote code execution or logic bypasses.
+
+ ✗ [Medium] Insecure JWT Verification Method 
+   Path: routes/verify.ts, line 103 
+   Info: A JWT decode() method is used that decodes the token but does check its validity or integrity. If the JWT has originated from an untrusted source, decoded data could be crafted by an attacker and should not be considered safe to use or process within the application. Always use JWT verification methods to validate the structure and integrity of a token.
+
+ ✗ [High] SQL Injection 
+   Path: data/static/codefixes/unionSqlInjectionChallenge_3.ts, line 10 
+   Info: Unsanitized input from an HTTP parameter flows into query, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] SQL Injection 
+   Path: data/static/codefixes/dbSchemaChallenge_1.ts, line 5 
+   Info: Unsanitized input from an HTTP parameter flows into query, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] SQL Injection 
+   Path: data/static/codefixes/unionSqlInjectionChallenge_1.ts, line 6 
+   Info: Unsanitized input from an HTTP parameter flows into query, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] SQL Injection 
+   Path: data/static/codefixes/dbSchemaChallenge_3.ts, line 11 
+   Info: Unsanitized input from an HTTP parameter flows into query, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] SQL Injection 
+   Path: routes/search.ts, line 23 
+   Info: Unsanitized input from an HTTP parameter flows into query, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] SQL Injection 
+   Path: routes/login.ts, line 36 
+   Info: Unsanitized input from the HTTP request body flows into query, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: routes/profileImageUrlUpload.ts, line 22 
+   Info: Unsanitized input from the HTTP request body flows into request.get, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Hardcoded Secret 
+   Path: lib/insecurity.ts, line 22 
+   Info: Hardcoded value is used as a cipher key (in crypto.createHmac). Generate the value with a cryptographically strong random number generator and do not hardcode it in source code.
+
+ ✗ [High] Hardcoded Secret 
+   Path: lib/insecurity.ts, line 43 
+   Info: Hardcoded value is used as a cipher key (in crypto.createHmac). Generate the value with a cryptographically strong random number generator and do not hardcode it in source code.
+
+ ✗ [High] Path Traversal 
+   Path: routes/profileImageUrlUpload.ts, line 31 
+   Info: Unsanitized input from cookies flows into createWriteStream, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to write to arbitrary files.
+
+ ✗ [High] Path Traversal 
+   Path: routes/vulnCodeFixes.ts, line 82 
+   Info: Unsanitized input from the HTTP request body flows into fs.readFileSync, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to read arbitrary files.
+
+ ✗ [High] Arbitrary File Write via Archive Extraction (Zip Slip) 
+   Path: routes/fileUpload.ts, line 42 
+   Info: Unsanitized input from Unzipper library flows into createWriteStream, where it is used as a path after been extracted from a zip file. This may result in a Zip Slip vulnerability and allow an attacker to write to arbitrary files.
+
+ ✗ [High] NoSQL Injection 
+   Path: routes/trackOrder.ts, line 18 
+   Info: Unsanitized input from an HTTP parameter flows into find, where it is used in an NoSQL query. This may result in an NoSQL Injection vulnerability.
+
+ ✗ [High] NoSQL Injection 
+   Path: routes/likeProductReviews.ts, line 18 
+   Info: Unsanitized input from the HTTP request body flows into findOne, where it is used in an NoSQL query. This may result in an NoSQL Injection vulnerability.
+
+ ✗ [High] NoSQL Injection 
+   Path: routes/likeProductReviews.ts, line 31 
+   Info: Unsanitized input from the HTTP request body flows into findOne, where it is used in an NoSQL query. This may result in an NoSQL Injection vulnerability.
+
+ ✗ [High] NoSQL Injection 
+   Path: routes/likeProductReviews.ts, line 24 
+   Info: Unsanitized input from the HTTP request body flows into update, where it is used in an NoSQL query. This may result in an NoSQL Injection vulnerability.
+
+ ✗ [High] NoSQL Injection 
+   Path: routes/likeProductReviews.ts, line 41 
+   Info: Unsanitized input from the HTTP request body flows into update, where it is used in an NoSQL query. This may result in an NoSQL Injection vulnerability.
+
+ ✗ [High] NoSQL Injection 
+   Path: routes/updateProductReviews.ts, line 17 
+   Info: Unsanitized input from the HTTP request body flows into update, where it is used in an NoSQL query. This may result in an NoSQL Injection vulnerability.
+
+ ✗ [High] NoSQL Injection 
+   Path: routes/dataExport.ts, line 61 
+   Info: Unsanitized input from an HTTP header flows into find, where it is used in an NoSQL query. This may result in an NoSQL Injection vulnerability.
+
+ ✗ [High] NoSQL Injection 
+   Path: routes/dataExport.ts, line 80 
+   Info: Unsanitized input from an HTTP header flows into find, where it is used in an NoSQL query. This may result in an NoSQL Injection vulnerability.
+
+ ✗ [High] Regular Expression Denial of Service (ReDoS) 
+   Path: routes/vulnCodeSnippet.ts, line 104 
+   Info: Unsanitized user input from an HTTP parameter flows into RegExp, where it is used to build a regular expression. This may result in a Regular expression Denial of Service attack (reDOS).
+
+ ✗ [High] Regular Expression Denial of Service (ReDoS) 
+   Path: routes/vulnCodeSnippet.ts, line 123 
+   Info: Unsanitized user input from an HTTP parameter flows into RegExp, where it is used to build a regular expression. This may result in a Regular expression Denial of Service attack (reDOS).
+
+ ✗ [High] Regular Expression Denial of Service (ReDoS) 
+   Path: routes/vulnCodeSnippet.ts, line 125 
+   Info: Unsanitized user input from an HTTP parameter flows into RegExp, where it is used to build a regular expression. This may result in a Regular expression Denial of Service attack (reDOS).
+
+ ✗ [High] Regular Expression Denial of Service (ReDoS) 
+   Path: routes/vulnCodeSnippet.ts, line 108 
+   Info: Unsanitized user input from an HTTP parameter flows into match, where it is used to build a regular expression. This may result in a Regular expression Denial of Service attack (reDOS).
+
+ ✗ [High] Deserialization of Untrusted Data 
+   Path: routes/vulnCodeFixes.ts, line 82 
+   Info: Unsanitized input from the HTTP request body flows into js-yaml.load, where it is used to deserialize an object. This may result in an Unsafe Deserialization vulnerability.
+
+ ✗ [High] Hardcoded Secret 
+   Path: lib/insecurity.ts, line 22 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded private key used in here.
+
+ ✗ [High] Improper Neutralization of Directives in Statically Saved Code 
+   Path: routes/userProfile.ts, line 56 
+   Info: Unsanitized input from cookies flows into pug.compile, where it is used to construct a template that gets rendered. This may result in a Server-Side Template Injection vulnerability.
+
+
+✔ Test completed
+
+Organization:      connectwise-poc
+Test type:         Static code analysis
+Project path:      C:\Users\bilal.khan\GitHub\Juice-Shop
+
+Summary:
+
+  266 Code issues found
+  27 [High]   81 [Medium]   158 [Low] 
+
+
