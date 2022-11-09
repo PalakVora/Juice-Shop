@@ -17,7 +17,8 @@
     "bodgeit",
     "ctf",
     "capture the flag",
-    "awareness"
+    "awareness",
+    "testing"
   ],
   "homepage": "https://owasp-juice.shop",
   "bugs": {
@@ -179,7 +180,8 @@
     "unzipper": "0.9.15",
     "winston": "^3.3.3",
     "yaml-schema-validator": "^1.2.2",
-    "z85": "^0.0.2"
+    "z85": "^0.0.2",
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
